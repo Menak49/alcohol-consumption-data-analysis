@@ -14,11 +14,11 @@ if __name__ == "__main__":
         "school", "sex", "age", "address", "famsize", "Pstatus",
         "Medu", "Fedu", "Mjob", "Fjob", "reason", "guardian",
         "nursery", "internet", "romantic", "famrel", "freetime",
-        "goout", "Dalc", "Walc", "health", "higher"
+        "goout", "Dalc", "Walc", "health", "higher","traveltime", "studytime",
     ]
 
     subject_cols = [
-        "traveltime", "studytime", "failures", "schoolsup", "famsup",
+         "failures", "schoolsup", "famsup",
         "paid", "activities", "absences", "G1", "G2", "G3"
     ]
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
     ordinal_map = {
         edu_type:         ["Medu", "Fedu"],
-        travel_study_type: ["traveltime_mat", "traveltime_por", "studytime_mat", "studytime_por"],
+        travel_study_type: ["traveltime", "studytime"],
         failures_type:    ["failures_mat", "failures_por"],
         likert_5_type:    ["famrel", "freetime", "goout", "Dalc", "Walc", "health"],
     }
