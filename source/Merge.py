@@ -8,18 +8,18 @@ if __name__ == "__main__":
     identity_cols = [
         "school", "sex", "age", "address", "famsize", "Pstatus",
         "Medu", "Fedu", "Mjob", "Fjob", "reason", "guardian",
-        "traveltime", "studytime", "failures",
+        "traveltime", "studytime", 
         "schoolsup", "famsup", "activities", "nursery",
         "higher", "internet", "romantic",
         "famrel", "freetime", "goout", "Dalc", "Walc",
-        "health", "absences"
+        "health"
     ]
 
     #
 
     merged = pd.merge(
         mat, por,
-        how='inner',  
+        how='outer',  
         on=identity_cols,
         suffixes=('_mat', '_por')
     )
