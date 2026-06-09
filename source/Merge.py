@@ -3,8 +3,7 @@ import pandas as pd
 if __name__ == "__main__":
     mat = pd.read_csv("data/student-mat.csv")
     por = pd.read_csv("data/student-por.csv")
-
-    # 
+ 
     identity_cols = [
         "school", "sex", "age", "address", "famsize", "Pstatus",
         "Medu", "Fedu", "Mjob", "Fjob", "reason", "guardian",
@@ -14,8 +13,6 @@ if __name__ == "__main__":
         "famrel", "freetime", "goout", "Dalc", "Walc",
         "health"
     ]
-
-    #
 
     merged = pd.merge(
         mat, por,
