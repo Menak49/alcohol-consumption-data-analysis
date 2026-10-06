@@ -1,15 +1,14 @@
-# SY09 — Consommation d'alcool chez les étudiants
+# Alcohol Consumption Data Analysis
 
-Projet du cours **SY09 (Analyse de données)** de l'UTC. On étudie le jeu de données
-*Student Alcohol Consumption* (deux lycées portugais, notes de maths et de portugais) pour
-répondre à la question suivante :
+Projet d'analyse de données en groupe (UTC, cours d'analyse de données). On étudie le jeu de
+données *Student Alcohol Consumption* (deux lycées portugais, notes de maths et de portugais)
+pour répondre à la question suivante :
 
 > Dans quelle mesure les facteurs socio-éducatifs et familiaux influencent-ils la
 > consommation d'alcool des étudiants, et quel est l'impact de cette consommation sur leur
 > réussite scolaire ?
 
-Le rapport final se trouve dans [`projet/projet.pdf`](projet/projet.pdf) ; le sujet donné par
-l'enseignant est dans [`subject/projet.pdf`](subject/projet.pdf).
+Le rapport final se trouve dans [`report/report.pdf`](report/report.pdf).
 
 ## Démarche
 
@@ -32,8 +31,7 @@ l'enseignant est dans [`subject/projet.pdf`](subject/projet.pdf).
 ## Organisation du dépôt
 
 ```
-projet/     rapport final (PDF + source LaTeX + figures + bibliographie)
-subject/    sujet du projet
+report/     rapport final (PDF)
 source/     notebooks et scripts
   td_functions/   fonctions réutilisées depuis les TDs (KNN, bayésien, validation croisée, ...)
   Regerssion/      notebook sur les tests de normalité (Shapiro)
