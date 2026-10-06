@@ -49,6 +49,3 @@ dépôt et y placer les deux CSV avant d'exécuter les notebooks.
 
 Dépendances principales : `numpy`, `pandas`, `scikit-learn`, `scipy`, `matplotlib`, `seaborn`.
 
-## Auteurs
-
-Projet de groupe réalisé dans le cadre de l'UTC.
